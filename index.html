@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/BrightTheme.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.8/dist/handlebars.min.js"></script>
 </head>
 <body>
-    <input type="text">
-    <script src="./script.js" type="module"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" type="module"></script>
+
+    <input type="text" class="search-country" name="query">
+
+    <div class="country-container"></div>
+
+    <script src="./fetchCountries.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotifyMobile.js"></script>
 </body>

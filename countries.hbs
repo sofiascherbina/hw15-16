@@ -3,9 +3,9 @@
     <h1 class="card-title">{{name.common}}</h1>
   <div class="card-body">
     <div class="country-info">
-        <p class="capital">Capital: {{capital}}</p>
-        <p class="population">Population: {{population}}</p>
-        <p class="lang">Language:</p>
+        <p class="capital"><b>Capital:</b> {{capital}}</p>
+        <p class="population"><b>Population:</b> {{population}}</p>
+        <p class="lang"><b>Language:</b></p>
         <ul class="lang-list">
           {{#each languages}}
             <li class="lang-list-item">{{this}}</li>
@@ -13,7 +13,7 @@
         </ul>
     </div>
     <div class="country-flag">
-         <img src="{{flags.svg}}" alt="Flag of {{name.common}}">
+         <img src="{{flags.svg}}" alt="Flag of {{name.common}}" width="700px" height="500px">
     </div>
   </div>
 </div>
